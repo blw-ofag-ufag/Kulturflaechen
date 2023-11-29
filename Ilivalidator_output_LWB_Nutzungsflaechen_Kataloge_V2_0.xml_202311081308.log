@@ -1,0 +1,79 @@
+Info: ilivalidator-1.13.3-a83faf21d19d577c7d9c3c822212dc020509b3d6
+Info: ili2c-5.3.2-6fb5df2877070aeb16c7b39a206a61e2518682c8
+Info: iox-ili-1.21.18-11c92f590bbe67df7af2051dad58b246996d14eb
+Info: java.version 11.0.21
+Info: User <abc>
+Info: Start date 2023-11-08 13:08
+Info: maxMemory 2097152 KB
+Info: dataFile </uploads/cae72030-1667-4721-892a-0b53b930984e/am53gssl.xml>
+Info: pluginFolder </ilitools/ilivalidator/1.13.3/plugins>
+Info: modeldir <%ITF_DIR;/models;http://models.interlis.ch/;https://vsa.ch/models>
+Info: lookup model <AdministrativeUnits_V1> 2.3 in repository </uploads/cae72030-1667-4721-892a-0b53b930984e/>
+Info: lookup model <AdministrativeUnits_V1> 2.3 in repository </models/>
+Info: lookup model <AdministrativeUnits_V1> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <AdministrativeUnits_V1> 2.3 in repository <https://vsa.ch/models/>
+Info: lookup model <AdministrativeUnits_V1> 2.3 in repository <https://405.sia.ch/models/>
+Info: lookup model <AdministrativeUnits_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <GeometryCHLV03_V1> 2.3 in repository </uploads/cae72030-1667-4721-892a-0b53b930984e/>
+Info: lookup model <GeometryCHLV03_V1> 2.3 in repository </models/>
+Info: lookup model <GeometryCHLV03_V1> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <GeometryCHLV03_V1> 2.3 in repository <https://vsa.ch/models/>
+Info: lookup model <GeometryCHLV03_V1> 2.3 in repository <https://405.sia.ch/models/>
+Info: lookup model <GeometryCHLV03_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0> 2.3 in repository </uploads/cae72030-1667-4721-892a-0b53b930984e/>
+Info: lookup model <LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0> 2.3 in repository </models/>
+Info: lookup model <LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0> 2.3 in repository <https://vsa.ch/models/>
+Info: lookup model <LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0> 2.3 in repository <https://405.sia.ch/models/>
+Info: lookup model <LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <LWB_Bewirtschaftungseinheiten_V2_0> 2.3 in repository </uploads/cae72030-1667-4721-892a-0b53b930984e/>
+Info: lookup model <LWB_Bewirtschaftungseinheiten_V2_0> 2.3 in repository </models/>
+Info: lookup model <LWB_Bewirtschaftungseinheiten_V2_0> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <LWB_Bewirtschaftungseinheiten_V2_0> 2.3 in repository <https://vsa.ch/models/>
+Info: lookup model <LWB_Bewirtschaftungseinheiten_V2_0> 2.3 in repository <https://405.sia.ch/models/>
+Info: lookup model <LWB_Bewirtschaftungseinheiten_V2_0> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <LWB_Nutzungsflaechen_V2_0> 2.3 in repository </uploads/cae72030-1667-4721-892a-0b53b930984e/>
+Info: lookup model <LWB_Nutzungsflaechen_V2_0> 2.3 in repository </models/>
+Info: lookup model <LWB_Nutzungsflaechen_V2_0> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <LWB_Nutzungsflaechen_V2_0> 2.3 in repository <https://vsa.ch/models/>
+Info: lookup model <LWB_Nutzungsflaechen_V2_0> 2.3 in repository <https://405.sia.ch/models/>
+Info: lookup model <LWB_Nutzungsflaechen_V2_0> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <InternationalCodes_V1> 2.3 in repository </uploads/cae72030-1667-4721-892a-0b53b930984e/>
+Info: lookup model <InternationalCodes_V1> 2.3 in repository </models/>
+Info: lookup model <InternationalCodes_V1> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <InternationalCodes_V1> 2.3 in repository <https://vsa.ch/models/>
+Info: lookup model <InternationalCodes_V1> 2.3 in repository <https://405.sia.ch/models/>
+Info: lookup model <InternationalCodes_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <Units> 2.3 in repository </uploads/cae72030-1667-4721-892a-0b53b930984e/>
+Info: lookup model <Units> 2.3 in repository </models/>
+Info: lookup model <Units> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository </uploads/cae72030-1667-4721-892a-0b53b930984e/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository </models/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository <https://vsa.ch/models/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository <https://405.sia.ch/models/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CoordSys> 2.3 in repository </uploads/cae72030-1667-4721-892a-0b53b930984e/>
+Info: lookup model <CoordSys> 2.3 in repository </models/>
+Info: lookup model <CoordSys> 2.3 in repository <http://models.interlis.ch/>
+Info: ilifile </app/.ilicache/models.interlis.ch/refhb23/Units-20120220.ili>
+Info: ilifile </app/.ilicache/models.geo.admin.ch/CH/CHBase_Part3_CATALOGUEOBJECTS_V1.ili>
+Info: ilifile </app/.ilicache/models.interlis.ch/refhb23/CoordSys-20151124.ili>
+Info: ilifile </app/.ilicache/models.geo.admin.ch/CH/CHBase_Part2_LOCALISATION_V1.ili>
+Info: ilifile </app/.ilicache/models.geo.admin.ch/CH/CHBase_Part1_GEOMETRY_V1.ili>
+Info: ilifile </app/.ilicache/models.geo.admin.ch/CH/CHBase_Part4_ADMINISTRATIVEUNITS_V1.ili>
+Info: ilifile </app/.ilicache/models.geo.admin.ch/BLW/LWB_Landwirtschaftliche_Zonengrenzen_V2_0.ili>
+Info: ilifile </app/.ilicache/models.geo.admin.ch/BLW/LWB_Bewirtschaftungseinheiten_V2_0.ili>
+Info: ilifile </app/.ilicache/models.geo.admin.ch/BLW/LWB_Nutzungsflaechen_V2_0.ili>
+Info: validate data...
+Info: first validation pass...
+Info: second validation pass...
+Info: validate unique constraint LWB_Nutzungsflaechen_V2_0.LNF_Kataloge.LNF_Katalog_Nutzungsart.Constraint1...
+Info: validate unique constraint Localisation_V1.MultilingualText.Constraint1...
+Info: validate mandatory constraint LocalisationCH_V1.LocalisedText.Constraint1...
+Info: object count 204 (structured elements 1512)
+Info: /uploads/cae72030-1667-4721-892a-0b53b930984e/am53gssl.xml: LWB_Nutzungsflaechen_V2_0.LNF_Kataloge BID=ch.admin.blw.lwb_nutzungsflaechen_kataloge_v2_0
+Info:     174 objects in CLASS LWB_Nutzungsflaechen_V2_0.LNF_Kataloge.LNF_Katalog_Nutzungsart
+Info:      30 objects in CLASS LWB_Nutzungsflaechen_V2_0.LNF_Kataloge.LNF_Katalog_Programm
+Info: ...validation done
+Info: End date 2023-11-08 13:08 validation took 00h:00m:00s.0853ms
