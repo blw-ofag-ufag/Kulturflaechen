@@ -6,13 +6,14 @@ INTERLIS 2.3;
 !!                    | neues Attribut BUR_Nr, Flaeche neu Multipolygon, LV03 entfernt,
 !!                    | CLASS Bezugsjahr neu in TOPIC Landw_Betrieb, neue Version 2.0
 !! 2023-03-17 | BLW   | Constraint der Klasse BE_Bewirtschaftungseinheit und die Kardinalitäten von Bezugsjahr zu BE_Bewirtschaftungseinheit und BE_Produktionsstaette korrigiert
+!! 2024-04-30 | GeoW  | Attribut BUR_Nr MANDATORY gesetzt
 
 !!@ technicalContact=mailto:info@blw.admin.ch
 !!@ IDGeoIV=153.6
 !!@ furtherInformation=https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/landwirtschaftliche-kulturflaechen.html
 MODEL LWB_Bewirtschaftungseinheiten_V2_0 (de)
 AT "https://models.geo.admin.ch/BLW/"
-VERSION "2023-03-17"  =
+VERSION "2024-09-30"  =
   IMPORTS CHAdminCodes_V1,LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0,CoordSys;
 
   TOPIC Landw_Betrieb =
@@ -58,7 +59,7 @@ VERSION "2023-03-17"  =
       Betriebsname : TEXT*100;
       /** Betriebs- und Unternehmensregister Nummer
        */
-      BUR_Nr : TEXT*20;
+      BUR_Nr : MANDATORY TEXT*20;
     END BE_Betrieb;
 
     CLASS BE_Bewirtschaftungseinheit =
@@ -92,7 +93,7 @@ VERSION "2023-03-17"  =
       PS_Name : TEXT*100;
       /** Betriebs- und Unternehmensregister Nummer
        */
-      BUR_Nr : TEXT*20;
+      BUR_Nr : MANDATORY TEXT*20;
     END BE_Produktionsstaette;
 
     ASSOCIATION BezugsjahrBE_Betrieb =
