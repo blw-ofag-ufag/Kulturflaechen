@@ -3,6 +3,7 @@ Version    | Who | Modification
 =======================================================================================
 2023-11-07 | BLW | Neuer Code psVegetableSoilCoverage hinzugefügt, Bezeichnung von Code Insitu_06 angepasst
 2023-03-17 | BLW | TID durch sprechende Einträge ersetzt und Ist_Spezialkultur bei den Codes 801, 802, 804, 807 und 810 auf true gesetzt
+2023-10-31 | GeoW | Headersection Referenz auf LWB_Bewirtschaftungseinheiten_V3_0 angepasst
 
 File LWB_Nutzungsflaechen_Kataloge_V2_0.xml VERSION ="2023-11-07" (https://models.geo.admin.ch/BLW/)
  -->
@@ -25,7 +26,7 @@ File LWB_Nutzungsflaechen_Kataloge_V2_0.xml VERSION ="2023-11-07" (https://model
 			<MODEL NAME="GeometryCHLV95_V1" VERSION="2017-12-04" URI="http://www.geo.admin.ch"/>
 			<MODEL NAME="LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0" VERSION="2023-03-17" URI="https://models.geo.admin.ch/BLW/"/>
 			<MODEL NAME="LWB_Landwirtschaftliche_Zonengrenzen_V2_0" VERSION="2023-03-17" URI="https://models.geo.admin.ch/BLW/"/>
-			<MODEL NAME="LWB_Bewirtschaftungseinheiten_V2_0" VERSION="2023-03-17" URI="https://models.geo.admin.ch/BLW/"/>
+			<MODEL NAME="LWB_Bewirtschaftungseinheiten_V3_0" VERSION="2024-10-31" URI="https://models.geo.admin.ch/BLW/"/>
 			<MODEL NAME="LWB_Nutzungsflaechen_V2_0" VERSION="2023-03-17" URI="https://models.geo.admin.ch/BLW/"/>
 		</MODELS>
 	</HEADERSECTION>
