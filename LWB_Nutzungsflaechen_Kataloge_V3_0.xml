@@ -1,34 +1,36 @@
-<!-- 
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
 Version    | Who | Modification
 =======================================================================================
-2023-11-07 | BLW | Neuer Code psVegetableSoilCoverage hinzugefügt, Bezeichnung von Code Insitu_06 angepasst
-2023-03-17 | BLW | TID durch sprechende Einträge ersetzt und Ist_Spezialkultur bei den Codes 801, 802, 804, 807 und 810 auf true gesetzt
-2023-10-31 | GeoW | Headersection Referenz auf LWB_Bewirtschaftungseinheiten_V3_0 angepasst
 2025-02-19 | GeoW | Headersection Referenz und Objekttags auf LWB_Nutzungsflaechen_V3_0 angepasst
+2024-10-31 | GeoW | Headersection Referenz auf LWB_Bewirtschaftungseinheiten_V3_0 angepasst
+2024-10-31 | BLW | bei Code 951 Gueltig_Bis=2024 ergänzt, LN neu ausgeschrieben als landwirtschaftliche Nutzfläche 
+2023-11-07 | BLW | Neuer Code psVegetableSoilCoverage hinzugefügt, Bezeichnung von Code Insitu_06 angepasst 
+2023-03-17 | BLW | TID durch sprechende Einträge ersetzt und Ist_Spezialkultur bei den Codes 801, 802, 804, 807 und 810 auf true gesetzt
 
-File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://models.geo.admin.ch/BLW/)
+File LWB_Nutzungsflaechen_Kataloge_V2_0.xml VERSION ="2024-10-31" (https://models.geo.admin.ch/BLW/)
  -->
 <TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
 	<HEADERSECTION SENDER="ili2fme-7.0.15-3bfc4ed4e1460c62fded0e4007d1c96a3a6f3e5c" VERSION="2.3">
 		<MODELS>
-			<MODEL NAME="InternationalCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="Localisation_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="LocalisationCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="Dictionaries_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="DictionariesCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="Units" VERSION="2012-02-20" URI="http://www.interlis.ch/models"/>
-			<MODEL NAME="CatalogueObjects_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="CatalogueObjectTrees_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="CoordSys" VERSION="2015-11-24" URI="http://www.interlis.ch/models"/>
-			<MODEL NAME="CHAdminCodes_V1" VERSION="2018-02-19" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="AdministrativeUnits_V1" VERSION="2022-10-06" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="AdministrativeUnitsCH_V1" VERSION="2020-04-24" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="GeometryCHLV03_V1" VERSION="2017-12-04" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="GeometryCHLV95_V1" VERSION="2017-12-04" URI="http://www.geo.admin.ch"/>
-			<MODEL NAME="LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0" VERSION="2023-03-17" URI="https://models.geo.admin.ch/BLW/"/>
-			<MODEL NAME="LWB_Landwirtschaftliche_Zonengrenzen_V2_0" VERSION="2023-03-17" URI="https://models.geo.admin.ch/BLW/"/>
-			<MODEL NAME="LWB_Bewirtschaftungseinheiten_V3_0" VERSION="2024-10-31" URI="https://models.geo.admin.ch/BLW/"/>
-			<MODEL NAME="LWB_Nutzungsflaechen_V3_0" VERSION="2023-03-17" URI="https://models.geo.admin.ch/BLW/"/>
+			<MODEL NAME="InternationalCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="Localisation_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="LocalisationCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="Dictionaries_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="DictionariesCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="Units" VERSION="2012-02-20" URI="http://www.interlis.ch/models"></MODEL>
+			<MODEL NAME="CatalogueObjects_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="CatalogueObjectTrees_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="CoordSys" VERSION="2015-11-24" URI="http://www.interlis.ch/models"></MODEL>
+			<MODEL NAME="CHAdminCodes_V1" VERSION="2018-02-19" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="AdministrativeUnits_V1" VERSION="2022-10-06" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="AdministrativeUnitsCH_V1" VERSION="2020-04-24" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="GeometryCHLV03_V1" VERSION="2017-12-04" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="GeometryCHLV95_V1" VERSION="2017-12-04" URI="http://www.geo.admin.ch"></MODEL>
+			<MODEL NAME="LWB_Landwirtschaftliche_Zonengrenzen_Kataloge_V2_0" VERSION="2023-03-17" URI="https://models.geo.admin.ch/BLW/"></MODEL>
+			<MODEL NAME="LWB_Landwirtschaftliche_Zonengrenzen_V2_0" VERSION="2023-03-17" URI="https://models.geo.admin.ch/BLW/"></MODEL>
+			<MODEL NAME="LWB_Bewirtschaftungseinheiten_V3_0" VERSION="2024-10-31" URI="https://models.geo.admin.ch/BLW/"></MODEL>
+			<MODEL NAME="LWB_Nutzungsflaechen_V3_0" VERSION="2025-02-19" URI="https://models.geo.admin.ch/BLW/"></MODEL>
 		</MODELS>
 	</HEADERSECTION>
 	<DATASECTION>
@@ -6769,15 +6771,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Streueflächen in der LN</Text>
+								<Text>Streueflächen in der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces à litière dans la SAU</Text>
+								<Text>Surfaces à litière dans la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Terreni da strame all’interno della SAU</Text>
+								<Text>Terreni da strame all’interno della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -6937,15 +6939,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Übrige Flächen innerhalb der LN, beitragsberechtigt</Text>
+								<Text>Übrige Flächen innerhalb der landwirtschaftlichen Nutzfläche, beitragsberechtigt</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Autres surfaces dans la SAU, avec contributions</Text>
+								<Text>Autres surfaces dans la surface agricole utile, avec contributions</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Altre superfici all’interno della SAU, con contributi</Text>
+								<Text>Altre superfici all’interno della superficie agricola utilizzata, con contributi</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -6956,15 +6958,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Übrige Flächen innerhalb der LN</Text>
+								<Text>Übrige Flächen innerhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Autre surface au sein de la SAU</Text>
+								<Text>Autre surface au sein de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Altre superfici all’interno della SAU</Text>
+								<Text>Altre superfici all’interno della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -6979,15 +6981,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Übrige Flächen innerhalb der LN, nicht beitragsberechtigt</Text>
+								<Text>Übrige Flächen innerhalb der landwirtschaftlichen Nutzfläche, nicht beitragsberechtigt</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Autres surfaces dans la SAU, sans contributions</Text>
+								<Text>Autres surfaces dans la surface agricole utile, sans contributions</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Altre superfici all’interno della SAU, senza contributi</Text>
+								<Text>Altre superfici all’interno della superficie agricola utilizzata, senza contributi</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -6998,15 +7000,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Übrige Flächen innerhalb der LN</Text>
+								<Text>Übrige Flächen innerhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Autre surface au sein de la SAU</Text>
+								<Text>Autre surface au sein de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Altre superfici all’interno della SAU</Text>
+								<Text>Altre superfici all’interno della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7082,15 +7084,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7124,15 +7126,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7166,15 +7168,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7208,15 +7210,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7250,15 +7252,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7292,15 +7294,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7334,15 +7336,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7376,15 +7378,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7418,15 +7420,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -7947,7 +7949,7 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Getreide in weiter Reihen</Text>
+								<Text>Getreide in weiter Reihe</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
@@ -7982,6 +7984,7 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 				<Ist_BFF_QI>true</Ist_BFF_QI>
 				<Ist_Spezialkultur>false</Ist_Spezialkultur>
 				<Gueltig_Von>2023</Gueltig_Von>
+				<Gueltig_Bis>2024</Gueltig_Bis>
 			</LWB_Nutzungsflaechen_V3_0.LNF_Kataloge.LNF_Katalog_Nutzungsart>
 			<LWB_Nutzungsflaechen_V3_0.LNF_Kataloge.LNF_Katalog_Nutzungsart TID="998">
 				<LNF_Code>998</LNF_Code>
@@ -7990,15 +7993,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Übrige Flächen ausserhalb der LN und SF</Text>
+								<Text>Übrige Flächen ausserhalb der landwirtschaftlichen Nutzfläche und Sömmerungsfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Autres surfaces situées en dehors de la SAU et la SE</Text>
+								<Text>Autres surfaces situées en dehors de la surface agricole utile et la surface d’estivage</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Altre superfici fuori della SAU e SE</Text>
+								<Text>Altre superfici fuori della superficie agricola utilizzata e superfici d’estivazione</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
@@ -8009,15 +8012,15 @@ File LWB_Nutzungsflaechen_Kataloge_V3_0.xml VERSION ="2025-02-19" (https://model
 						<LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>de</Language>
-								<Text>Flächen ausserhalb der LN</Text>
+								<Text>Flächen ausserhalb der landwirtschaftlichen Nutzfläche</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>fr</Language>
-								<Text>Surfaces en dehors de la SAU</Text>
+								<Text>Surfaces en dehors de la surface agricole utile</Text>
 							</LocalisationCH_V1.LocalisedText>
 							<LocalisationCH_V1.LocalisedText>
 								<Language>it</Language>
-								<Text>Superfici fuori della SAU</Text>
+								<Text>Superfici fuori della superficie agricola utilizzata</Text>
 							</LocalisationCH_V1.LocalisedText>
 						</LocalisedText>
 					</LocalisationCH_V1.MultilingualText>
