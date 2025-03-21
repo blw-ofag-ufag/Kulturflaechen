@@ -10,13 +10,14 @@ INTERLIS 2.3;
 !!                    | Katalog kein eigenes MODEL mehr, Programme bekommen klassenübergreifenden Constraint
 !! 2023-03-17 | BLW   | OID AS INTERLIS.UUIDOID für die Katalogeinträge gelöscht
 !! 2025-02-19 | geow  | Referenz auf LWB_Bewirtschaftungseinheiten_V3_0 angepasst
+!! 2025-04-01 | geow  | Ergänzung Attribut LNF_Nutzung.Strukturen_BrBL
 
 !!@ technicalContact=mailto:info@blw.admin.ch
 !!@ IDGeoIV=153.1
 !!@ furtherInformation=https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/landwirtschaftliche-kulturflaechen.html
-MODEL LWB_Nutzungsflaechen_V3_0 (de)
+MODEL LWB_Nutzungsflaechen_V4_0 (de)
 AT "https://models.geo.admin.ch/BLW/"
-VERSION "2025-02-19"  =
+VERSION "2025-04-01"  =
   IMPORTS Units,LWB_Bewirtschaftungseinheiten_V3_0,CatalogueObjects_V1,LocalisationCH_V1,CoordSys;
 
   /** LNF_Kataloge: Die stabile BID stellt sicher, dass auf die richtige Katalogsversion referenziert wird.
@@ -75,7 +76,7 @@ VERSION "2025-02-19"  =
 
   TOPIC Nutzung =
     OID AS INTERLIS.UUIDOID;
-    DEPENDS ON LWB_Nutzungsflaechen_V3_0.LNF_Kataloge,LWB_Bewirtschaftungseinheiten_V3_0.Landw_Betrieb;
+    DEPENDS ON LWB_Nutzungsflaechen_V4_0.LNF_Kataloge,LWB_Bewirtschaftungseinheiten_V3_0.Landw_Betrieb;
 
     REFSYSTEM BASKET BCoordSys ~ CoordSys.CoordsysTopic
       OBJECTS OF GeoCartesian2D: CHLV95
@@ -139,8 +140,11 @@ VERSION "2025-02-19"  =
       /** Gibt an, ob die Fläche im Bezugsjahr bewirtschaftet wird oder nicht, bzw. wieviel Prozent der Fläche als bewirtschaftet angerechnet werden können.
        */
       Bewirtschaftungsgrad : MANDATORY 0 .. 100 [Units.Percent];
-      Nutzungsart : MANDATORY LWB_Nutzungsflaechen_V3_0.LNF_Kataloge.LNF_Katalog_NutzungsartRef;
-      Programm : BAG {1..*} OF LWB_Nutzungsflaechen_V3_0.LNF_Kataloge.LNF_Katalog_ProgrammRef;
+      /** Gibt an, auf wie viel Prozent einer Nutzungsfläche Strukturen (Asthaufen, Steinhaufen, u.ä) vorhanden sind.
+      */
+      Strukturen_BrBL : MANDATORY 0 .. 100 [Units.Percent];
+      Nutzungsart : MANDATORY LWB_Nutzungsflaechen_V4_0.LNF_Kataloge.LNF_Katalog_NutzungsartRef;
+      Programm : BAG {1..*} OF LWB_Nutzungsflaechen_V4_0.LNF_Kataloge.LNF_Katalog_ProgrammRef;
     END LNF_Nutzung;
 
     /** Eine landwirtschaftliche Nutzung hängt an der Bewirtschaftungeinheit
@@ -166,7 +170,7 @@ VERSION "2025-02-19"  =
     /** Für die Gültigkeitsprüfung von Programmen muss die BAG OF Struktur aufgelöst werden
      */
     VIEW InspectionOfProgramm
-      INSPECTION OF LNF_Nutzung_Programm ~ LWB_Nutzungsflaechen_V3_0.Nutzung.LNF_Nutzung -> Programm; =
+      INSPECTION OF LNF_Nutzung_Programm ~ LWB_Nutzungsflaechen_V4_0.Nutzung.LNF_Nutzung -> Programm; =
     ATTRIBUTE
       ALL OF LNF_Nutzung_Programm;
       Bezugsjahr := PARENT->Bezugsjahr->Bezugsjahr;
@@ -177,4 +181,4 @@ VERSION "2025-02-19"  =
 
   END Nutzung;
 
-END LWB_Nutzungsflaechen_V3_0.
+END LWB_Nutzungsflaechen_V4_0.
