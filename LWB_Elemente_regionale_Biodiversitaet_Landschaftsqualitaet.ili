@@ -1,0 +1,60 @@
+INTERLIS 2.4;
+
+!! Version    | Who   | Modification
+!!----------------------------------------------------------------------------------------
+!! 2025-04-01 | GeoW  | Modellierung gemäss Vorgabe FIG
+
+!!@ technicalContact=mailto:info@blw.admin.ch
+!!@ IDGeoIV=153.4
+!!@ furtherInformation=https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/landwirtschaftliche-kulturflaechen.html
+
+MODEL LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0 (de)
+AT "https://models.geo.admin.ch/BLW/"
+VERSION "2025-04-01"  =
+  IMPORTS CoordSys, Geometry_V2, GeometryCHLV95_V2;
+
+  TOPIC Elemente_regionale_Biodiversitaet_Landschaftsqualitaet =
+    BASKET OID AS INTERLIS.UUIDOID;
+    OID AS INTERLIS.UUIDOID;
+
+    CLASS Bezugsjahr =
+      Bezugsjahr : MANDATORY INTERLIS.GregorianYear;
+    END Bezugsjahr;
+
+    CLASS Projektperimeter_fuer_regionale_Biodiversitaet_und_Landschaftsqualitaet =
+      Flaeche : MANDATORY GeometryCHLV95_V2.MultiSurfaceWithoutArcs;
+      Code_Perimeter : MANDATORY TEXT*50;
+      Perimeter : MANDATORY TEXT;
+      Aenderungsdatum : MANDATORY INTERLIS.XMLDate;
+    END Projektperimeter_fuer_regionale_Biodiversitaet_und_Landschaftsqualitaet;
+
+    CLASS Flaechen_und_Elemente_fuer_den_Beitrag_fuer_regionale_Biodiversitaet_und_Landschaftsqualitaet =
+      Flaeche : GeometryCHLV95_V2.MultiSurfaceWithoutArcs; !! Frage: Ist auch die Fläche optional?
+      Linie : GeometryCHLV95_V2.MultiLine;
+      Punkt : GeometryCHLV95_V2.MultiPoint;
+      Identifikator : TEXT*16;
+      Code_Massnahme : MANDATORY TEXT*50;  !! Frage: Freie Zuordnung?? Oder besteht ein Katalog?
+      Massnahme : MANDATORY TEXT;
+      Ausrichtung : MANDATORY TEXT; !! Frage: Auswahl LQ|BDF|beides?
+      /* Regionale Massnahme */
+      Kategorie : MANDATORY TEXT; !! Frage: bezug zu Liste aller Kategorien?
+      Anrechenbar_fuer_OeLN_und_Spezialkulturen : MANDATORY INTERLIS.BOOLEAN;
+      Verpflichtung_Von : INTERLIS.GregorianYear;
+      Verpflichtung_Bis : INTERLIS.GregorianYear;
+      Schnittzeitpunkt : INTERLIS.XMLDate;
+      NHG : MANDATORY INTERLIS.BOOLEAN;
+    END Flaechen_und_Elemente_fuer_den_Beitrag_fuer_regionale_Biodiversitaet_und_Landschaftsqualitaet;
+
+    ASSOCIATION Bezugsjahr_Projektperimeter =
+      Bezugsjahr -<#> {1} Bezugsjahr;
+      Projektperimeter -- {0..*} Projektperimeter_fuer_regionale_Biodiversitaet_und_Landschaftsqualitaet;
+    END Bezugsjahr_Projektperimeter;
+
+    ASSOCIATION Projektperimeter_Flaechen_Elemente =
+      Projektperimeter -<#> {1} Projektperimeter_fuer_regionale_Biodiversitaet_und_Landschaftsqualitaet;
+      Flaechen_Elemente -- {0..*} Flaechen_und_Elemente_fuer_den_Beitrag_fuer_regionale_Biodiversitaet_und_Landschaftsqualitaet;
+    END Projektperimeter_Flaechen_Elemente;
+
+  END Elemente_regionale_Biodiversitaet_Landschaftsqualitaet;
+
+END LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.
