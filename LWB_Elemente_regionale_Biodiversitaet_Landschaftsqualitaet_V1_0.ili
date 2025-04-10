@@ -1,0 +1,106 @@
+INTERLIS 2.4;
+
+!! Version    | Who   | Modification
+!!----------------------------------------------------------------------------------------
+!! 2025-04-01 | GeoW  | Modellierung gemäss Vorgabe FIG
+
+!!@ technicalContact=mailto:info@blw.admin.ch
+!!@ IDGeoIV=153.4
+!!@ furtherInformation=https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/landwirtschaftliche-kulturflaechen.html
+
+MODEL LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0 (de)
+AT "https://models.geo.admin.ch/BLW/"
+VERSION "2025-05-01"  =
+  IMPORTS Units, GeometryCHLV95_V2, LocalisationCH_V2, CatalogueObjects_V2;
+
+  TOPIC BrBL_Kataloge
+  EXTENDS CatalogueObjects_V2.Catalogues =
+
+    DOMAIN
+      KatList = (Ackerflaeche, Hecken_und_Baeume, Feuchtgebiete, Dauerwiesen, regionale_Massnahme, Strukturen, Diverses);
+
+    !! Liste aller Massnahmen für Beiträge regionale Biodiversitaet und Landschaftsqualitaet
+    CLASS BrBL_Kataloge_Massnahme EXTENDS CatalogueObjects_V2.Catalogues.Item =
+      Code: MANDATORY 1 .. 999;
+      Massnahme: MANDATORY LocalisationCH_V2.MultilingualText;
+      Ausrichtung_LQ: MANDATORY INTERLIS.BOOLEAN;
+      Ausrichtung_BD: MANDATORY INTERLIS.BOOLEAN;
+      Kategorie: MANDATORY KatList;
+      Element: MANDATORY (Flaeche, Linie, Punkt, Prozentwert);
+      Gueltig_Bis: INTERLIS.GregorianYear;
+    UNIQUE Code;
+    END BrBL_Kataloge_Massnahme;
+
+  END BrBL_Kataloge;
+
+  TOPIC BrBL_Elemente =
+    BASKET OID AS INTERLIS.UUIDOID;
+    OID AS INTERLIS.UUIDOID;
+    DEPENDS ON LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge;
+
+    CLASS Bezugsjahr =
+      Bezugsjahr : MANDATORY INTERLIS.GregorianYear;
+    END Bezugsjahr;
+
+    CLASS Projektperimeter =
+      Flaeche : MANDATORY GeometryCHLV95_V2.MultiSurfaceWithoutArcs;
+      Code_Perimeter : MANDATORY TEXT*50;
+      Perimeter : MANDATORY TEXT;
+      Aenderungsdatum : MANDATORY INTERLIS.XMLDate;
+    END Projektperimeter;
+
+    CLASS BrBL_Element (ABSTRACT) =
+      Identifikator : TEXT*16;
+      Massnahme : MANDATORY REFERENCE TO (EXTERNAL) LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Kataloge_Massnahme;
+      Anrechenbar_fuer_OeLN_und_Spezialkulturen : MANDATORY INTERLIS.BOOLEAN;
+      Verpflichtung_Von : INTERLIS.GregorianYear;
+      Verpflichtung_Bis : INTERLIS.GregorianYear;
+      Schnittzeitpunkt : INTERLIS.XMLDate;
+      Strukturpflege : 0 .. 100 [Units.Percent];
+      NHG : MANDATORY INTERLIS.BOOLEAN;
+    UNIQUE Identifikator;
+    MANDATORY CONSTRAINT CheckStrukturpflege : Massnahme -> Code == 14 AND DEFINED(Strukturpflege);
+    END BrBL_Element;
+ 
+    CLASS BrBL_FlaechenElement EXTENDS LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Elemente.BrBL_Element =
+      Geometrie : MANDATORY GeometryCHLV95_V2.SurfaceWithoutArcs;
+      MANDATORY CONSTRAINT CheckFlaechenMassnahme : Massnahme -> Code <= 12;
+    END BrBL_FlaechenElement;
+
+    CLASS BrBL_LinienElement EXTENDS LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Elemente.BrBL_Element =
+      Geometrie : MANDATORY GeometryCHLV95_V2.LineWithoutArcs;
+      MANDATORY CONSTRAINT CheckLinienMassnahme : Massnahme -> Code == 14 OR Massnahme -> Code == 15 OR Massnahme -> Code == 17 OR Massnahme -> Code == 18 OR Massnahme -> Code == 19;
+    END BrBL_LinienElement;
+
+    CLASS BrBL_PunktElement EXTENDS LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Elemente.BrBL_Element =
+      Geometrie : MANDATORY GeometryCHLV95_V2.Coord2;
+      MANDATORY CONSTRAINT CheckPunktMassnahme : Massnahme -> Code == 16 OR Massnahme -> Code == 20 OR Massnahme -> Code == 21 OR Massnahme -> Code == 22;
+    END BrBL_PunktElement;
+
+    ASSOCIATION Bezugsjahr_Projektperimeter =
+      Bezugsjahr -<> {1} Bezugsjahr;
+      Projektperimeter -- {0..*} Projektperimeter;
+    END Bezugsjahr_Projektperimeter;
+
+    ASSOCIATION Projektperimeter_FlaechenElemente =
+      Projektperimeter -<> {1} Projektperimeter;
+      FlaechenElement -- {0..*} BrBL_FlaechenElement;
+    END Projektperimeter_FlaechenElemente;
+
+    ASSOCIATION Projektperimeter_LinienElemente =
+      Projektperimeter -<> {1} Projektperimeter;
+      LinienElement -- {0..*} BrBL_LinienElement;
+    END Projektperimeter_LinienElemente;
+
+    ASSOCIATION Projektperimeter_PunktElemente =
+      Projektperimeter -<> {1} Projektperimeter;
+      PunktElement -- {0..*} BrBL_PunktElement;
+    END Projektperimeter_PunktElemente;
+
+    CONSTRAINTS OF Projektperimeter =
+      MANDATORY CONSTRAINT CheckGeometrieZuordnung : DEFINED(FlaechenElement) OR DEFINED(LinienElement) OR DEFINED(PunktElement);
+    END;
+
+  END BrBL_Elemente;
+
+END LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.
