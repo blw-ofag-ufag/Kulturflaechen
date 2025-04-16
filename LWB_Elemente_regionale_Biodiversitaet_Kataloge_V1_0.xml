@@ -17,7 +17,7 @@ Version    | Who | Modification
 </ili:headersection>
 <ili:datasection>
     <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge ili:bid="ch.admin.blw.elemente_regionale_biodiversitaet_landschaftsqualitaet_v1_0">
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="1">
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="1">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>1</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -42,8 +42,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Ackerflaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="2">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="2">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>2</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -68,8 +68,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Ackerflaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="3">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="3">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>3</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -94,8 +94,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Hecken_und_Baeume</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="4">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="4">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>4</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -120,8 +120,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Hecken_und_Baeume</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="5">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="5">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>5</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -146,8 +146,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Diverses</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="6">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="6">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>6</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -172,8 +172,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Feuchtgebiete</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="7">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="7">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>7</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -198,8 +198,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Feuchtgebiete</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="8">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="8">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>8</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -224,8 +224,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Dauerwiesen</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="9">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="9">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>9</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -250,8 +250,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Dauerwiesen</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="10">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="10">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>10</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -276,8 +276,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="11">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="11">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>11</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -302,8 +302,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="12">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="12">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>12</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -328,8 +328,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Flaeche</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="13">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="13">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>13</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -352,10 +352,10 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Strukturen</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
-            <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Prozentwert</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
+            <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>NumWert</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="14">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="14">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>14</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -380,8 +380,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Hecken_und_Baeume</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Punkt</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="15">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="15">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>15</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -406,8 +406,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Hecken_und_Baeume</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Punkt</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="16">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="16">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>16</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -432,8 +432,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Diverses</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Linie</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="17">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="17">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>17</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -458,8 +458,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Punkt</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="18">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="18">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>18</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -484,8 +484,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Punkt</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="19">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="19">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>19</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -510,8 +510,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Punkt</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="20">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="20">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>20</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -536,8 +536,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Linie</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="21">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="21">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>21</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -562,8 +562,8 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Linie</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
-        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme ili:tid="22">
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="22">
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>22</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
                 <LocalisationCH_V2:MultilingualText>
@@ -588,7 +588,7 @@ Version    | Who | Modification
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>Linie</LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Element>
             <LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
-        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge_Massnahme>
+        </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
     </LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge>
 </ili:datasection>
 </ili:transfer>

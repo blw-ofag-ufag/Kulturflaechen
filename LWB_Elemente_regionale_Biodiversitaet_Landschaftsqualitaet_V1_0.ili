@@ -5,13 +5,13 @@ INTERLIS 2.4;
 !! 2025-04-01 | GeoW  | Modellierung gemäss Vorgabe FIG
 
 !!@ technicalContact=mailto:info@blw.admin.ch
-!!@ IDGeoIV=153.4
+!!@ IDGeoIV=153.9
 !!@ furtherInformation=https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/landwirtschaftliche-kulturflaechen.html
 
 MODEL LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0 (de)
 AT "https://models.geo.admin.ch/BLW/"
 VERSION "2025-05-01"  =
-  IMPORTS Units, GeometryCHLV95_V2, LocalisationCH_V2, CatalogueObjects_V2;
+  IMPORTS Units, GeometryCHLV95_V2, LocalisationCH_V2, CatalogueObjects_V2, CHAdminCodes_V2;
 
   TOPIC BrBL_Kataloge
   EXTENDS CatalogueObjects_V2.Catalogues =
@@ -20,16 +20,33 @@ VERSION "2025-05-01"  =
       KatList = (Ackerflaeche, Hecken_und_Baeume, Feuchtgebiete, Dauerwiesen, regionale_Massnahme, Strukturen, Diverses);
 
     !! Liste aller Massnahmen für Beiträge regionale Biodiversitaet und Landschaftsqualitaet
-    CLASS BrBL_Kataloge_Massnahme EXTENDS CatalogueObjects_V2.Catalogues.Item =
-      Code: MANDATORY 1 .. 999;
+    CLASS BrBL_Katalog_Massnahme EXTENDS CatalogueObjects_V2.Catalogues.Item =
+      Code: MANDATORY 1 .. 99;
       Massnahme: MANDATORY LocalisationCH_V2.MultilingualText;
       Ausrichtung_LQ: MANDATORY INTERLIS.BOOLEAN;
       Ausrichtung_BD: MANDATORY INTERLIS.BOOLEAN;
       Kategorie: MANDATORY KatList;
-      Element: MANDATORY (Flaeche, Linie, Punkt, Prozentwert);
+      Element: MANDATORY (Flaeche, Linie, Punkt, NumWert);
       Gueltig_Bis: INTERLIS.GregorianYear;
     UNIQUE Code;
-    END BrBL_Kataloge_Massnahme;
+    END BrBL_Katalog_Massnahme;
+
+    !! Liste der kantonalen Massnahmen-Codes
+    CLASS BrBL_Katalog_Massnahme_Kt EXTENDS CatalogueObjects_V2.Catalogues.Item =
+      Code: MANDATORY 101 .. 999;
+      Massnahme: MANDATORY LocalisationCH_V2.MultilingualText;
+      Gueltig_Bis: INTERLIS.GregorianYear;
+      Ref_Massnahme_BLW: MANDATORY REFERENCE TO LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme;
+    UNIQUE Code;
+    END BrBL_Katalog_Massnahme_Kt;
+
+    !! Liste aller Foerderkategorien 
+    CLASS BrBL_Katalog_Foerderkategorie EXTENDS CatalogueObjects_V2.Catalogues.Item =
+      Code: MANDATORY 1 .. 99;
+      Kategorie: MANDATORY KatList;
+      Gueltig_Bis: INTERLIS.GregorianYear;
+    UNIQUE Code;
+    END BrBL_Katalog_Foerderkategorie;
 
   END BrBL_Kataloge;
 
@@ -49,17 +66,28 @@ VERSION "2025-05-01"  =
       Aenderungsdatum : MANDATORY INTERLIS.XMLDate;
     END Projektperimeter;
 
+    CLASS Foerderperimeter =
+      Typ : MANDATORY REFERENCE TO (EXTERNAL) LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Foerderkategorie;
+      Flaeche : MANDATORY GeometryCHLV95_V2.SurfaceWithoutArcs;
+      Code_Perimeter : MANDATORY TEXT*50;
+      Name_Perimeter : MANDATORY TEXT*50;
+      Anforderung_Kt : BAG {1 .. *} OF CHAdminCodes_V2.CHCantonCode;
+      Aenderungsdatum : MANDATORY INTERLIS.XMLDate;
+    END Foerderperimeter;
+
     CLASS BrBL_Element (ABSTRACT) =
       Identifikator : TEXT*16;
-      Massnahme : MANDATORY REFERENCE TO (EXTERNAL) LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Kataloge_Massnahme;
+      !!Massnahme : BAG {1..*} OF REFERENCE TO (EXTERNAL) LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme;
+      Massnahme : MANDATORY REFERENCE TO (EXTERNAL) LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme; 
+      Massnahme_Kt : REFERENCE TO (EXTERNAL) LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme_Kt;
       Anrechenbar_fuer_OeLN_und_Spezialkulturen : MANDATORY INTERLIS.BOOLEAN;
       Verpflichtung_Von : INTERLIS.GregorianYear;
       Verpflichtung_Bis : INTERLIS.GregorianYear;
       Schnittzeitpunkt : INTERLIS.XMLDate;
-      Strukturpflege : 0 .. 100 [Units.Percent];
-      NHG : MANDATORY INTERLIS.BOOLEAN;
+      Anzahl_Kleinstrukturen : 0 .. 999;
+      Vereinbarung_NHG : INTERLIS.BOOLEAN;
     UNIQUE Identifikator;
-    MANDATORY CONSTRAINT CheckStrukturpflege : Massnahme -> Code == 14 AND DEFINED(Strukturpflege);
+    MANDATORY CONSTRAINT CheckStrukturpflege : Massnahme -> Code == 14 AND DEFINED(Anzahl_Kleinstrukturen);
     END BrBL_Element;
  
     CLASS BrBL_FlaechenElement EXTENDS LWB_Elemente_regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Elemente.BrBL_Element =
@@ -78,9 +106,14 @@ VERSION "2025-05-01"  =
     END BrBL_PunktElement;
 
     ASSOCIATION Bezugsjahr_Projektperimeter =
-      Bezugsjahr -<> {1} Bezugsjahr;
+      Bezugsjahr -- {1} Bezugsjahr;
       Projektperimeter -- {0..*} Projektperimeter;
     END Bezugsjahr_Projektperimeter;
+
+    ASSOCIATION Projektperimeter_Foerderperimeter =
+      Projektperimeter -<> {1} Projektperimeter;
+      Foerderperimeter -- {0..*} Foerderperimeter;
+    END Projektperimeter_Foerderperimeter;
 
     ASSOCIATION Projektperimeter_FlaechenElemente =
       Projektperimeter -<> {1} Projektperimeter;
