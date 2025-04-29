@@ -1,0 +1,46 @@
+Info: ilivalidator-1.14.6-SNAPSHOT-aec4b85c5384260b1ef25d29da6799d99a55ecf6
+Info: ili2c-5.6.3-720ae8bf5621734004b9d234fde4d2fe9556b943
+Info: iox-ili-1.23.5-SNAPSHOT-57158bf7962aeb997f885d8d3d1f630e7228950b
+Info: java.version 21.0.1
+Info: User <ogrimm>
+Info: Start date 2025-04-29 07:13
+Info: maxMemory 8339456 KB
+Info: dataFile <.\LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Katalog_Massnahmen_V1_0.xml>
+Info: pluginFolder <C:\Program Files\INTERLIS\ilivalidator\plugins>
+Info: modeldir <./;https://models.interlis.ch>
+Info: lookup model <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0> 2.4 in repository <./>
+Info: lookup model <LocalisationCH_V2> 2.4 in repository <./>
+Info: lookup model <LocalisationCH_V2> 2.4 in repository <https://models.interlis.ch/>
+Info: lookup model <LocalisationCH_V2> 2.4 in repository <http://models.geo.admin.ch/>
+Info: lookup model <GeometryCHLV95_V2> 2.4 in repository <./>
+Info: lookup model <GeometryCHLV95_V2> 2.4 in repository <https://models.interlis.ch/>
+Info: lookup model <GeometryCHLV95_V2> 2.4 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CatalogueObjects_V2> 2.4 in repository <./>
+Info: lookup model <CatalogueObjects_V2> 2.4 in repository <https://models.interlis.ch/>
+Info: lookup model <CatalogueObjects_V2> 2.4 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CHAdminCodes_V2> 2.4 in repository <./>
+Info: lookup model <CHAdminCodes_V2> 2.4 in repository <https://models.interlis.ch/>
+Info: lookup model <CHAdminCodes_V2> 2.4 in repository <http://models.geo.admin.ch/>
+Info: lookup model <Units> 2.4 in repository <./>
+Info: lookup model <Units> 2.4 in repository <https://models.interlis.ch/>
+Info: lookup model <CoordSys> 2.4 in repository <./>
+Info: lookup model <CoordSys> 2.4 in repository <https://models.interlis.ch/>
+Info: ilifile <C:\Users\ogrimm\.ilicache\models.interlis.ch\refhb24\Units.ili>
+Info: ilifile <C:\Users\ogrimm\.ilicache\models.interlis.ch\refhb24\CoordSys.ili>
+Info: ilifile <C:\Users\ogrimm\.ilicache\models.geo.admin.ch\CH\CHBase_Part2_LOCALISATION_V2.ili>
+Info: ilifile <C:\Users\ogrimm\.ilicache\models.geo.admin.ch\CH\CHBase_Part3_CATALOGUEOBJECTS_V2.ili>
+Info: ilifile <C:\Users\ogrimm\.ilicache\models.geo.admin.ch\CH\CHBase_Part1_GEOMETRY_V2.ili>
+Info: ilifile <C:\Users\ogrimm\.ilicache\models.geo.admin.ch\CH\CHBase_Part4_ADMINISTRATIVEUNITS_V2.ili>
+Info: ilifile <.\LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.ili>
+Info: validate data...
+Info: assume unknown external objects
+Info: first validation pass...
+Info: second validation pass...
+Info: validate unique constraint LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme.Constraint1...
+Info: validate unique constraint Localisation_V2.MultilingualText.Constraint1...
+Info: validate mandatory constraint LocalisationCH_V2.LocalisedText.Constraint1...
+Info: object count 14 (structured elements 56)
+Info: .\LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Katalog_Massnahmen_V1_0.xml: LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge BID=ch.admin.blw.elemente_regionale_biodiversitaet_landschaftsqualitaet_v1_0
+Info:      14 objects in CLASS LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme
+Info: ...validation done
+Info: End date 2025-04-29 07:13 validation took 00h:00m:01s.0349ms

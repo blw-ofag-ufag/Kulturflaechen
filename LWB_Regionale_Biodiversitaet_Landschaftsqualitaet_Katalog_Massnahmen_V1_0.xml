@@ -1,0 +1,400 @@
+<!-- 
+
+In diesem Katalog sind die Massnahmen für Beiträge für regionale Biodiversität und Landschaftsqualität aufgelistet
+
+Version    | Who | Modification
+=======================================================================================
+
+-->
+<ili:transfer xmlns:ili="http://www.interlis.ch/xtf/2.4/INTERLIS" xmlns:geom="http://www.interlis.ch/geometry/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0="http://www.interlis.ch/xtf/2.4/LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0" xmlns:LocalisationCH_V2="http://www.interlis.ch/xtf/2.4/LocalisationCH_V2" xmlns:Localisation_V2="http://www.interlis.ch/xtf/2.4/Localisation_V2" xmlns:InternationalCodes_V2="http://www.interlis.ch/xtf/2.4/InternationalCodes_V2">
+<ili:headersection>
+    <ili:models>
+        <ili:model>LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0</ili:model>
+        <ili:model>LocalisationCH_V2</ili:model>
+        <ili:model>Localisation_V2</ili:model>
+    </ili:models>
+<ili:sender>ili2fme-5.1.0-58fc980cc6639b2c16a3cff8a0fa19ef1484b11c</ili:sender>
+</ili:headersection>
+<ili:datasection>
+    <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge ili:bid="ch.admin.blw.elemente_regionale_biodiversitaet_landschaftsqualitaet_v1_0">
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="1">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>1</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Farbige_Hauptkulturen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Farbige_Hauptkulturen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Farbige Hauptkulturen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Ackerflaeche</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="2">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>2</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Ackerbegleitflora (Einsaat oder spontane/autochthone)</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Ackerbegleitflora (Einsaat oder spontane/autochthone)</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Ackerbegleitflora (Einsaat oder spontane/autochthone)</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Ackerflaeche</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="3">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>3</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Heckenpflanzung</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Heckenpflanzung</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Heckenpflanzung</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Hecken_und_Baeume</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="4">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>4</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflege einer Nicht-BFF-Hecke</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflege einer Nicht-BFF-Hecke</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflege einer Nicht-BFF-Hecke</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Hecken_und_Baeume</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="5">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>5</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Schwerpunktraum</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Schwerpunktraum</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Schwerpunktraum</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Diverses</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="6">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>6</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Anlegen von Tümpeln und Teichen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Anlegen von Tümpeln und Teichen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Anlegen von Tümpeln und Teichen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>           
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Feuchtgebiete</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="7">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>7</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflege von Tümpeln und Teichen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflege von Tümpeln und Teichen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflege von Tümpeln und Teichen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Feuchtgebiete</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="8">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>8</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Neuansaat von Wiesen durch Direktbegrünung</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Neuansaat von Wiesen durch Direktbegrünung</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Neuansaat von Wiesen durch Direktbegrünung</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Dauerwiesen</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="9">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>9</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Gestaffelte Nutzung auf Betriebsebene</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Gestaffelte Nutzung auf Betriebsebene</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Gestaffelte Nutzung auf Betriebsebene</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Dauerwiesen</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="10">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>10</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>regionale Massnahme Schwerpunkt Biodiversität (z.B. Kiebizfläche)</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>regionale Massnahme Schwerpunkt Biodiversität (z.B. Kiebizfläche)</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>regionale Massnahme Schwerpunkt Biodiversität (z.B. Kiebizfläche)</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>regionale_Massnahme</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="11">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>11</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflanzung von einheimischen Einzelbäumen und Hochstammfeldobstbäumen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflanzung von einheimischen Einzelbäumen und Hochstammfeldobstbäumen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflanzung von einheimischen Einzelbäumen und Hochstammfeldobstbäumen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Hecken_und_Baeume</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="12">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>12</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflege von einheimischen Einzelbäumen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflege von einheimischen Einzelbäumen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Pflege von einheimischen Einzelbäumen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Hecken_und_Baeume</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="13">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>13</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Erhaltung und Pflege von Trockensteinmauern</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Erhaltung und Pflege von Trockensteinmauern</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Erhaltung und Pflege von Trockensteinmauern</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Diverses</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme ili:tid="14">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>14</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+                <LocalisationCH_V2:MultilingualText>
+                    <Localisation_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>de</Localisation_V2:Language>
+                            <Localisation_V2:Text>Neuschaffung, Erhaltung und Pflege von Kleinstrukturen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>fr</Localisation_V2:Language>
+                            <Localisation_V2:Text>Neuschaffung, Erhaltung und Pflege von Kleinstrukturen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                        <LocalisationCH_V2:LocalisedText>
+                            <Localisation_V2:Language>it</Localisation_V2:Language>
+                            <Localisation_V2:Text>Neuschaffung, Erhaltung und Pflege von Kleinstrukturen</Localisation_V2:Text>
+                        </LocalisationCH_V2:LocalisedText>
+                    </Localisation_V2:LocalisedText>
+                </LocalisationCH_V2:MultilingualText>
+            </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Massnahme>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_LQ>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>true</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Ausrichtung_BD>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>Strukturen</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>false</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anrechenbar_fuer_OeLN_und_Spezialkulturen>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
+        </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Massnahme>
+    </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge>
+</ili:datasection>
+</ili:transfer>
