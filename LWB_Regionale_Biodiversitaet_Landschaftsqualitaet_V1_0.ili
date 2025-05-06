@@ -13,7 +13,6 @@ MODEL LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0 (de)
 AT "https://models.geo.admin.ch/BLW/"
 VERSION "2025-05-01"  =
   IMPORTS Units, GeometryCHLV95_V2, LocalisationCH_V2, CatalogueObjects_V2, CHAdminCodes_V2;
-  !!IMPORTS UNQUALIFIED INTERLIS;
 
   TOPIC BrBL_Kataloge
   EXTENDS CatalogueObjects_V2.Catalogues =
