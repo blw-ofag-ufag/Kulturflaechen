@@ -16,9 +16,9 @@ Version    | Who | Modification
 <ili:sender>ili2fme-5.1.0-58fc980cc6639b2c16a3cff8a0fa19ef1484b11c</ili:sender>
 </ili:headersection>
 <ili:datasection>
-    <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge ili:bid="ch.admin.blw.elemente_regionale_biodiversitaet_landschaftsqualitaet_v1_0">
-        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Foerderkategorie ili:tid="1">
-            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>1</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
+    <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Kataloge ili:bid="ch.admin.blw.elemente_regionale_biodiversitaet_landschaftsqualitaet">
+        <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Foerderkategorie ili:tid="ch.admin.blw.elemente_regionale_biodiversitaet_landschaftsqualitaet.fk0">
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>0</LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Code>
             <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
                 <LocalisationCH_V2:MultilingualText>
                     <Localisation_V2:LocalisedText>
@@ -37,6 +37,7 @@ Version    | Who | Modification
                     </Localisation_V2:LocalisedText>
                 </LocalisationCH_V2:MultilingualText>
             </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Kategorie>
+            <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Anwendung_Kt />
             <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Von />
             <LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:Gueltig_Bis />
         </LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0:BrBL_Katalog_Foerderkategorie>
