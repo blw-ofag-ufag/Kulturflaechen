@@ -27,11 +27,11 @@ Version    | Who | Modification
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>fr</Localisation_V2:Language>
-                            <Localisation_V2:Text>Ackerflaeche</Localisation_V2:Text>
+                            <Localisation_V2:Text>Terres assolées</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>it</Localisation_V2:Language>
-                            <Localisation_V2:Text>Ackerflaeche</Localisation_V2:Text>
+                            <Localisation_V2:Text>Superficie coltiva</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                     </Localisation_V2:LocalisedText>
                 </LocalisationCH_V2:MultilingualText>
@@ -49,11 +49,11 @@ Version    | Who | Modification
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>fr</Localisation_V2:Language>
-                            <Localisation_V2:Text>Hecken und Baeume</Localisation_V2:Text>
+                            <Localisation_V2:Text>Haies et arbres</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>it</Localisation_V2:Language>
-                            <Localisation_V2:Text>Hecken und Baeume</Localisation_V2:Text>
+                            <Localisation_V2:Text>Siepi e alberi</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                     </Localisation_V2:LocalisedText>
                 </LocalisationCH_V2:MultilingualText>
@@ -71,11 +71,11 @@ Version    | Who | Modification
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>fr</Localisation_V2:Language>
-                            <Localisation_V2:Text>Diverses</Localisation_V2:Text>
+                            <Localisation_V2:Text>Divers</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>it</Localisation_V2:Language>
-                            <Localisation_V2:Text>Diverses</Localisation_V2:Text>
+                            <Localisation_V2:Text>Altro</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                     </Localisation_V2:LocalisedText>
                 </LocalisationCH_V2:MultilingualText>
@@ -93,11 +93,11 @@ Version    | Who | Modification
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>fr</Localisation_V2:Language>
-                            <Localisation_V2:Text>Feuchtgebiete</Localisation_V2:Text>
+                            <Localisation_V2:Text>Zones humides</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>it</Localisation_V2:Language>
-                            <Localisation_V2:Text>Feuchtgebiete</Localisation_V2:Text>
+                            <Localisation_V2:Text>Aree umide</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                     </Localisation_V2:LocalisedText>
                 </LocalisationCH_V2:MultilingualText>
@@ -115,11 +115,11 @@ Version    | Who | Modification
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>fr</Localisation_V2:Language>
-                            <Localisation_V2:Text>Dauerwiesen</Localisation_V2:Text>
+                            <Localisation_V2:Text>Prairies permanentes</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>it</Localisation_V2:Language>
-                            <Localisation_V2:Text>Dauerwiesen</Localisation_V2:Text>
+                            <Localisation_V2:Text>Prati perenni</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                     </Localisation_V2:LocalisedText>
                 </LocalisationCH_V2:MultilingualText>
@@ -137,11 +137,11 @@ Version    | Who | Modification
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>fr</Localisation_V2:Language>
-                            <Localisation_V2:Text>Strukturen</Localisation_V2:Text>
+                            <Localisation_V2:Text>Structures</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                         <LocalisationCH_V2:LocalisedText>
                             <Localisation_V2:Language>it</Localisation_V2:Language>
-                            <Localisation_V2:Text>Strukturen</Localisation_V2:Text>
+                            <Localisation_V2:Text>Strutture</Localisation_V2:Text>
                         </LocalisationCH_V2:LocalisedText>
                     </Localisation_V2:LocalisedText>
                 </LocalisationCH_V2:MultilingualText>
