@@ -5,7 +5,7 @@ INTERLIS 2.4;
 !! 2023-01-01 | BLW   | Attribute Punkt und Status entfernt, LV03 entfernt, CLASS Bezugsjahr neu in TOPIC Foerderflaechen, neue Version 2.0,
 !!                    | IDGeoIV 153.4 wird gestrichen, Flaeche ist neu Multipolygon, LNF_Code bekommt Datentyp Zahl
 !! 2023-03-17 | BLW   | Kardinalitäten von Bezugsjahr zu BFF_Qualitaet_II und BFF_Vernetzung korrigiert
-!! 2025-04-01 | GeoW  | Update auf 2.4, Ausbau BFF_Vernetzung
+!! 2025-10-01 | GeoW  | Update auf 2.4, Ausbau BFF_Vernetzung
 
 !!@ technicalContact=mailto:info@blw.admin.ch
 !!@ IDGeoIV=153.3
