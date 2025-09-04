@@ -1,0 +1,147 @@
+INTERLIS 2.4;
+
+!! Version    | Who   | Modification
+!!----------------------------------------------------------------------------------------
+!! 2025-05-01 | GeoW  | Modellierung gemäss Vorgabe FIG
+!! 2025-10-01 | GeoW  | Anpassungen nach Anhörung FIG
+
+!!@ technicalContact=mailto:info@blw.admin.ch
+!!@ IDGeoIV=153.9
+!!@ furtherInformation=https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/landwirtschaftliche-kulturflaechen.html
+
+MODEL LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0 (de)
+
+AT "https://models.geo.admin.ch/BLW/"
+VERSION "2025-10-01"  =
+  IMPORTS Units, GeometryCHLV95_V2, LocalisationCH_V2, CatalogueObjects_V2, CHAdminCodes_V2;
+
+  TOPIC BrBL_Kataloge
+  EXTENDS CatalogueObjects_V2.Catalogues =
+    BASKET OID AS INTERLIS.ANYOID;
+    OID AS INTERLIS.ANYOID;
+ 
+    !! Liste aller Massnahmenkategorien
+    CLASS BrBL_Katalog_Massnahmenkategorie EXTENDS CatalogueObjects_V2.Catalogues.Item =
+      Kategorie: MANDATORY LocalisationCH_V2.MultilingualText;
+      Gueltig_Von: INTERLIS.GregorianYear;
+      Gueltig_Bis: INTERLIS.GregorianYear;
+    END BrBL_Katalog_Massnahmenkategorie;
+
+    !! Liste aller Massnahmen für Beiträge regionale Biodiversität und Landschaftsqualität
+    CLASS BrBL_Katalog_Massnahme EXTENDS CatalogueObjects_V2.Catalogues.Item =
+      Code: MANDATORY 0 .. 999;
+      Massnahme: MANDATORY LocalisationCH_V2.MultilingualText;
+      Ausrichtung_LQ: MANDATORY BOOLEAN;
+      Ausrichtung_BD: MANDATORY BOOLEAN;
+      Kategorie: MANDATORY REFERENCE TO (EXTERNAL) LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahmenkategorie;
+      Anwendung_Kt : CHAdminCodes_V2.CHCantonCode;
+      Regionale_Massnahme: MANDATORY BOOLEAN;
+      Gueltig_Von: INTERLIS.GregorianYear;
+      Gueltig_Bis: INTERLIS.GregorianYear;
+    UNIQUE Code;
+    MANDATORY CONSTRAINT CheckKt_RegionaleMassnahme: Regionale_Massnahme => DEFINED(Anwendung_Kt);
+    END BrBL_Katalog_Massnahme;
+
+    !! Liste aller Kategorien des Gebiets Zusatzbeitrag 
+    CLASS BrBL_Katalog_Gebiet_Zusatzbeitragkategorie EXTENDS CatalogueObjects_V2.Catalogues.Item =
+      Code: MANDATORY 0 .. 999;
+      Kategorie: MANDATORY LocalisationCH_V2.MultilingualText;  
+      Anwendung_Kt : MANDATORY CHAdminCodes_V2.CHCantonCode;
+      Gueltig_Von: INTERLIS.GregorianYear;
+      Gueltig_Bis: INTERLIS.GregorianYear;
+    UNIQUE Code;
+    END BrBL_Katalog_Gebiet_Zusatzbeitragkategorie;
+
+  END BrBL_Kataloge;
+
+  TOPIC BrBL_Elemente =
+    BASKET OID AS INTERLIS.UUIDOID;
+    OID AS INTERLIS.UUIDOID;
+    DEPENDS ON LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge;
+
+    CLASS Bezugsjahr =
+      Bezugsjahr : MANDATORY INTERLIS.GregorianYear;
+    END Bezugsjahr;
+
+    CLASS Projektgebiet =
+      Flaeche : MANDATORY GeometryCHLV95_V2.MultiSurfaceWithoutArcs;
+      Code : MANDATORY TEXT*50;
+      Name : MANDATORY TEXT*200;
+      Aenderungsdatum : MANDATORY INTERLIS.XMLDate;
+    END Projektgebiet;
+
+    CLASS Gebiet_Zusatzbeitrag =
+      Flaeche : MANDATORY GeometryCHLV95_V2.SurfaceWithoutArcs;
+      Code : MANDATORY TEXT*50;
+      Name : MANDATORY TEXT*200;
+      Typ : BAG {1..*} OF REFERENCE TO (EXTERNAL) LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Gebiet_Zusatzbeitragkategorie;
+      Aenderungsdatum : MANDATORY INTERLIS.XMLDate;
+    END Gebiet_Zusatzbeitrag;
+
+    CLASS Teilgebiet =
+      Flaeche : MANDATORY GeometryCHLV95_V2.AreaWithoutArcs;
+      Code : MANDATORY TEXT*50;
+      Name : MANDATORY TEXT*200;
+      Massnahmen : BAG {1..*} OF REFERENCE TO (EXTERNAL) LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme;
+      Aenderungsdatum : MANDATORY INTERLIS.XMLDate;
+    END Teilgebiet;
+
+    CLASS BrBL_Element (ABSTRACT) =
+      Identifikator : TEXT*50;
+      Massnahmen : BAG {1..*} OF REFERENCE TO (EXTERNAL) LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme;
+    END BrBL_Element;
+ 
+    CLASS BrBL_FlaechenElement EXTENDS LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Elemente.BrBL_Element =
+      Geometrie : MANDATORY GeometryCHLV95_V2.MultiSurfaceWithoutArcs;
+      Anzahl_Strukturen : 0 .. 999 [Units.CountedObjects];
+      Verpflichtung_Von : INTERLIS.GregorianYear;
+      Verpflichtung_Bis : INTERLIS.GregorianYear;
+      Schnittzeitpunkt : INTERLIS.XMLDate;
+    MANDATORY CONSTRAINT CheckAnzahlStrukturen: (Massnahmen->Code == 11) => DEFINED(Anzahl_Strukturen);
+    END BrBL_FlaechenElement;
+
+    CLASS BrBL_LinienElement EXTENDS LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Elemente.BrBL_Element =
+      Geometrie : MANDATORY GeometryCHLV95_V2.MultiLineWithoutArcs;
+    END BrBL_LinienElement;
+
+    CLASS BrBL_PunktElement EXTENDS LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.BrBL_Elemente.BrBL_Element =
+      Geometrie : MANDATORY GeometryCHLV95_V2.MultiPoint;
+    END BrBL_PunktElement;
+ 
+    ASSOCIATION Bezugsjahr_Projektgebiet =
+      Bezugsjahr -- {1} Bezugsjahr;
+      Projektgebiet -- {0..*} Projektgebiet;
+    END Bezugsjahr_Projektgebiet;
+
+    ASSOCIATION Projektgebiet_Gebiet_Zusatzbeitrag =
+      Projektgebiet -<> {1} Projektgebiet;
+      Gebiet_Zusatzbeitrag -- {0..*} Gebiet_Zusatzbeitrag;
+    END Projektgebiet_Gebiet_Zusatzbeitrag;
+
+    ASSOCIATION Projektgebiet_Teilgebiet =
+      Projektgebiet -<> {1} Projektgebiet;
+      Teilgebiet -- {0..*} Teilgebiet;
+    END Projektgebiet_Teilgebiet;
+
+    ASSOCIATION Projektgebiet_FlaechenElemente =
+      Projektgebiet -<> {1} Projektgebiet;
+      FlaechenElement -- {0..*} BrBL_FlaechenElement;
+    END Projektgebiet_FlaechenElemente;
+
+    ASSOCIATION Projektgebiet_LinienElemente =
+      Projektgebiet -<> {1} Projektgebiet;
+      LinienElement -- {0..*} BrBL_LinienElement;
+    END Projektgebiet_LinienElemente;
+
+    ASSOCIATION Projektgebiet_PunktElemente =
+      Projektgebiet -<> {1} Projektgebiet;
+      PunktElement -- {0..*} BrBL_PunktElement;
+    END Projektgebiet_PunktElemente;
+
+    CONSTRAINTS OF Projektgebiet =
+      MANDATORY CONSTRAINT CheckGeometrieZuordnung : DEFINED(FlaechenElement) OR DEFINED(LinienElement) OR DEFINED(PunktElement);
+    END;
+
+  END BrBL_Elemente;
+ 
+END LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_V1_0.
