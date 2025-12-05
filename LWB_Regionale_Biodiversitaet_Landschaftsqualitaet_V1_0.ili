@@ -156,7 +156,7 @@ AT "https://models.geo.admin.ch/BLW/" VERSION "2025-12-01" =
     ASSOCIATION Bezugsjahr_BrBL_Element =
       Bezugsjahr -- {1} Bezugsjahr;
       Element -- {0..*} BrBL_Element;
-    END Bezugsjahr_Projektgebiet;
+    END Bezugsjahr_BrBL_Element;
 
   END BrBL_Elemente;
 
