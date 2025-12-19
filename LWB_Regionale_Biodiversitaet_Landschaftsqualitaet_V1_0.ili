@@ -83,7 +83,7 @@ AT "https://models.geo.admin.ch/BLW/" VERSION "2025-12-01" =
       Code: MANDATORY TEXT*50;
       Name: MANDATORY TEXT*200;
       Typ: BAG {1..*} OF REFERENCE TO (EXTERNAL) LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Kataloge_V1_0.BrBL_Kataloge.BrBL_Katalog_Gebiet_Zusatzbeitragkategorie;
-      Massnahmen: BAG {0..*} OF REFERENCE TO (EXTERNAL) LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Kataloge_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme;
+      Massnahmen: BAG {1..*} OF REFERENCE TO (EXTERNAL) LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Kataloge_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme;
       Aenderungsdatum: MANDATORY INTERLIS.XMLDate;
     END Gebiet_Zusatzbeitrag;
 
@@ -109,6 +109,10 @@ AT "https://models.geo.admin.ch/BLW/" VERSION "2025-12-01" =
       Projektgebiet -<> {1} Projektgebiet;
       Teilgebiet -- {0..*} Teilgebiet;
     END Projektgebiet_Teilgebiet;
+
+    CONSTRAINTS OF Projektgebiet =
+      MANDATORY CONSTRAINT DEFINED(Teilgebiet) OR DEFINED(Gebiet_Zusatzbeitrag);
+    END;
 
   END BrBL_Gebiete;
 
