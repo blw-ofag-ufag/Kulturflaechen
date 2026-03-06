@@ -79,7 +79,7 @@ AT "https://models.geo.admin.ch/BLW/" VERSION "2025-12-01" =
     END Projektgebiet;
 
     CLASS Gebiet_Zusatzbeitrag =
-      Flaeche: MANDATORY GeometryCHLV95_V2.SurfaceWithoutArcs;
+      Flaeche: MANDATORY GeometryCHLV95_V2.MultiSurfaceWithoutArcs;
       Code: MANDATORY TEXT*50;
       Name: MANDATORY TEXT*200;
       Typ: BAG {1..*} OF REFERENCE TO (EXTERNAL) LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Kataloge_V1_0.BrBL_Kataloge.BrBL_Katalog_Gebiet_Zusatzbeitragkategorie;
@@ -88,11 +88,12 @@ AT "https://models.geo.admin.ch/BLW/" VERSION "2025-12-01" =
     END Gebiet_Zusatzbeitrag;
 
     CLASS Teilgebiet =
-      Flaeche: MANDATORY GeometryCHLV95_V2.AreaWithoutArcs;
+      Flaeche: MANDATORY GeometryCHLV95_V2.MultiSurfaceWithoutArcs; 
       Code: MANDATORY TEXT*50;
       Name: MANDATORY TEXT*200;
       Massnahmen: BAG {1..*} OF REFERENCE TO (EXTERNAL) LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Kataloge_V1_0.BrBL_Kataloge.BrBL_Katalog_Massnahme;
       Aenderungsdatum: MANDATORY INTERLIS.XMLDate;
+      SET CONSTRAINT INTERLIS.areAreas (ALL, UNDEFINED, >>Flaeche);
     END Teilgebiet;
 
     ASSOCIATION Bezugsjahr_Projektgebiet =
