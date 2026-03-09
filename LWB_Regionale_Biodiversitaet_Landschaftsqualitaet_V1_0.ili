@@ -5,11 +5,12 @@ INTERLIS 2.4;
 !! 2025-05-01 | GeoW  | Modellierung gemäss Vorgabe FIG
 !! 2025-10-01 | GeoW  | Anpassungen nach Anhörung FIG
 !! 2025-12-01 | GeoW  | Aufteilung auf drei Modelle nach Rückmeldung KOLAS
+!! 2026-03-09 | GeoW  | Einführung von multipart Geometrien im Topic Gebiete
 
 !!@ technicalContact = mailto:info@blw.admin.ch
 !!@ furtherInformation = https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/landwirtschaftliche-kulturflaechen.html
 MODEL LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Kataloge_V1_0 (de)
-AT "https://models.geo.admin.ch/BLW/" VERSION "2025-12-01" =
+AT "https://models.geo.admin.ch/BLW/" VERSION "2026-03-09" =
   IMPORTS LocalisationCH_V2, CatalogueObjects_V2, CHAdminCodes_V2;
 
   TOPIC BrBL_Kataloge
@@ -58,7 +59,7 @@ END LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Kataloge_V1_0.
 
 !!@ IDGeoIV = 153.9
 MODEL LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Gebiete_V1_0 (de)
-AT "https://models.geo.admin.ch/BLW/" VERSION "2025-12-01" =
+AT "https://models.geo.admin.ch/BLW/" VERSION "2026-03-09" =
   IMPORTS GeometryCHLV95_V2;
   IMPORTS LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Kataloge_V1_0;
 
@@ -121,7 +122,7 @@ END LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Gebiete_V1_0.
 
 !!@ IDGeoIV = 153.10
 MODEL LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Elemente_V1_0 (de)
-AT "https://models.geo.admin.ch/BLW/" VERSION "2025-12-01" =
+AT "https://models.geo.admin.ch/BLW/" VERSION "2026-03-09" =
   IMPORTS Units, GeometryCHLV95_V2, LocalisationCH_V2;
   IMPORTS LWB_Regionale_Biodiversitaet_Landschaftsqualitaet_Kataloge_V1_0;
 
